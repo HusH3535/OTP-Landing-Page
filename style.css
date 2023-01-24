@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f2937;
+}
+
+.bars{
+    width: 70%;
+}
+
+div{
+    font-family:'Roboto', Courier, monospace;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;    
+}
+
+.header-links{
+    display: flex;
+    gap: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
