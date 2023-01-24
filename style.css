@@ -1,6 +1,7 @@
 body{
     width: 100vw;
     margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dark-background{
@@ -24,10 +25,12 @@ body{
 .header-links{
     display: flex;
     gap: 20px;
+    
 }
 
 .logo{
     font-size: 24px;
+    font-weight: 600;
     color: #f9faf8;
 }
 
