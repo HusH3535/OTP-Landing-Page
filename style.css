@@ -58,6 +58,8 @@ body{
     color: #e5e7eb;
 }
 
+
+
 .Sign-Up{
     font-size: 14px;
     color: #f9faf8;
@@ -71,9 +73,46 @@ body{
     margin-top: 8px;
 }
 
-.img{
-
+.random-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
 }
+
+.info-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin: 32px;
+}
+
+.square{
+    border: #3882f6;
+    border-style: solid;
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+    border-width: 3px;
+}
+
+.random-text{
+    width: 130px;
+}
+
+.info-squares{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.info-square{
+    display: flex;
+    flex-direction: column;
+}
+
 
 ul{
     list-style: none;
