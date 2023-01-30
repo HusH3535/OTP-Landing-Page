@@ -145,6 +145,40 @@ button{
     align-self: flex-end;
 }
 
+.white-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-action{
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 8px;
+    padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+
+}
+
+.call-title{
+    font-weight: bold;
+}
+
+.call-text{
+    font-weight: lighter;
+}
+
+.call-button{
+    border: solid;
+    border-color: white;
+}
 
 ul{
     list-style: none;
