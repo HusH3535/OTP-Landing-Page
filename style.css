@@ -79,6 +79,7 @@ body{
     align-items: center;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 80px;
 }
 
 .info-title{
@@ -99,6 +100,8 @@ body{
 
 .random-text{
     width: 130px;
+    font-size: 15px;
+    color: rgb(104, 104, 104);
 }
 
 .info-squares{
@@ -111,6 +114,35 @@ body{
 .info-square{
     display: flex;
     flex-direction: column;
+}
+
+.grey-background{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-quote{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.quote{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 38px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author{
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 
